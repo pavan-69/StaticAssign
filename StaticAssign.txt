@@ -1,0 +1,37 @@
+1. *The static keyword is used for a constant variable or a method that is the same for every
+    instance of a class.
+
+   *It helps in without object creation we can use static methods,static variables
+
+2. In Java, classloading is the process of loading class files into the JVM
+   (Java Virtual Machine) at runtime. It is responsible for loading classes from various       sources such as the file system, network, and databases, and making them available to the JVM for execution.
+  steps to execute java program:
+     1.static variables
+     2.static blocks
+     3.main method
+     4.static method
+     5.instance variables
+     6.non static blocks
+     7.non static methods
+
+3. No,In Java, a static variable is a class variable (for whole class). So if we have static local variable (a variable with scope limited to function), it violates the purpose of static. Hence compiler does not allow static local variable.
+
+4. Because in classloading there is a initilization that executes and gives memory to static       
+   block
+
+5. because without object creation only we can called.
+
+6. A static block can be used for the static initialization of a class.
+
+7. static variable:static variable gives sthe same value throughout all objects
+   instance variables:instance variables gives the different address based on the object
+   creations.
+
+8. static members:*it executes first
+                  *it executes without object creations
+                  *it gives the same value entire all objects
+   non static members:
+                  *it executes after static members execution
+                  *it executes after object creation
+                  *it changes values
+ 
